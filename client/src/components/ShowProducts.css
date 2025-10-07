@@ -1,0 +1,46 @@
+    .flx{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        display: inline-block;
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+    /* Individual product container */
+    .pro-container {
+        margin: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        width: 250px;
+        border: 2px solid red;
+    }
+
+    /* Styling for the product details */
+    .pro {
+        text-align: center;
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        max-height: 150px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .pro span{
+        cursor: pointer;
+    }
+
+    h3 {
+        margin: 10px 0;
+    }
+    h4 {
+        font-weight: normal;
+        color: #888;
+    }
+
+    h1{
+        text-align: center;
+    }
